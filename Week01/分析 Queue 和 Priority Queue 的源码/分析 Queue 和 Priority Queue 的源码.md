@@ -20,11 +20,11 @@ Queue的实现类通常不定义基于元素的equals()和hashCode(),因为对�
 
 ## 2.【Queue继承关系】
 
-<img src="https://github.com/zhaoyangjue/algorithm010/tree/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/Queue继承关系.jpg" style="zoom:67%;" />
+<img src="https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/Queue%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB.jpg" style="zoom:67%;" />
 
 其实现类或接口：
 
-<img src="https://github.com/zhaoyangjue/algorithm010/tree/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/Queue部分实现关系.jpg" style="zoom:67%;" />
+<img src="https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/Queue%E9%83%A8%E5%88%86%E5%AE%9E%E7%8E%B0%E5%85%B3%E7%B3%BB.jpg" style="zoom:67%;" />
 
 ## 3.【Queue定义方法】
 
@@ -79,7 +79,7 @@ https://www.cnblogs.com/lanhaicode/p/10546257.html
 
 #### 4.1.2 PriorityQueue继承关系
 
-<img src="https://github.com/zhaoyangjue/algorithm010/tree/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/优先队列继承关系.jpg" style="zoom:60%;" />
+<img src="https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB.jpg" style="zoom:60%;" />
 
 从继承关系上看，PriorityQueue并非是Queue的直接实现类，其父类为AbstractQueue;而在PriorityQueue的方法中并没有E element()，反而在AbstractQueue里存在element();此处应用到了【**适配器设计模式**】；
 
@@ -270,13 +270,13 @@ private void siftDownComparable(int k, E x) {
 
 offer图示：
 
-![](https://github.com/zhaoyangjue/algorithm010/tree/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/offer.jpg)
+![](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/offer.jpg)
 
 poll()图示
 
-![](https://github.com/zhaoyangjue/algorithm010/tree/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/poll.jpg)
+![](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/poll.jpg)
 
 remove(E e)图示
 
-![](https://github.com/zhaoyangjue/algorithm010/tree/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/remove.jpg)
+![](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/remove.jpg)
 
