@@ -20,11 +20,11 @@ Queue的实现类通常不定义基于元素的equals()和hashCode(),因为对�
 
 ## 2.【Queue继承关系】
 
-![如果图片无法读取，查看PDF文件](QueueExtends.jpg)
+![如果图片无法读取，查看PDF文件](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/homework002-QueueAndPriorityQueue/QueueExtends.jpg)
 
 其实现类或接口：
 
-![如果图片无法读取，查看PDF文件](Queue-implements.jpg)
+![如果图片无法读取，查看PDF文件](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/homework002-QueueAndPriorityQueue/Queue-implements.jpg)
 
 ## 3.【Queue定义方法】
 
@@ -79,7 +79,7 @@ https://www.cnblogs.com/lanhaicode/p/10546257.html
 
 #### 4.1.2 PriorityQueue继承关系
 
-![如果图片无法读取，查看PDF文件](PriorityQueueExtends.jpg)
+![如果图片无法读取，查看PDF文件](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/homework002-QueueAndPriorityQueue/PriorityQueueExtends.jpg)
 
 从继承关系上看，PriorityQueue并非是Queue的直接实现类，其父类为AbstractQueue;而在PriorityQueue的方法中并没有E element()，反而在AbstractQueue里存在element();此处应用到了【**适配器设计模式**】；
 
@@ -270,13 +270,13 @@ private void siftDownComparable(int k, E x) {
 
 offer图示：
 
-![如果图片无法读取，查看PDF文件](/offer.jpg)
+![如果图片无法读取，查看PDF文件](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/homework002-QueueAndPriorityQueue/offer.jpg)
 
 poll()图示
 
-![如果图片无法读取，查看PDF文件](/poll.jpg)
+![如果图片无法读取，查看PDF文件](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/homework002-QueueAndPriorityQueue/poll.jpg)
 
 remove(E e)图示
 
-![如果图片无法读取，查看PDF文件](remove.jpg)
+![如果图片无法读取，查看PDF文件](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/homework002-QueueAndPriorityQueue/remove.jpg)
 
