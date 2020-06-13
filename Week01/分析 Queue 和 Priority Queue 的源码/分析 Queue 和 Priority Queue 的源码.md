@@ -270,11 +270,11 @@ private void siftDownComparable(int k, E x) {
 
 offer图示：
 
-![](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/offer.jpg)
+![](offer.jpg)
 
 poll()图示
 
-![](https://github.com/zhaoyangjue/algorithm010/blob/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/poll.jpg)
+![](https://github.com/zhaoyangjue/algorithm010/raw/master/Week01/%E5%88%86%E6%9E%90%20Queue%20%E5%92%8C%20Priority%20Queue%20%E7%9A%84%E6%BA%90%E7%A0%81/poll.jpg)
 
 remove(E e)图示
 
